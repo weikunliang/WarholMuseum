@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+	<link href="css/other.css" rel="stylesheet" type="text/css" />
+
+	<meta charset = "utf-8" />
+	<meta name = "author" content = "Weikun Liang">
+	<meta name = "content" content = "Web Development Assignment">
+
+	<!-- Link to CSS -->
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<!-- The href=" " attribute is where you placed the style sheet. 
+	The rel="stylesheet" attribute just says to look for a stylesheet. 
+	The type="text/css" tells the browser the mime type of the document, which is a cascading style sheet. -->
+
+	<!-- Link Javascript Files -->
+	<script src="js/jquery-2.0.3.min.js" type="text/javascript"></script> <!-- Full jQuery library -->
+	
+	<!-- Lightbox plugin from:  http://leandrovieira.com/projects/jquery/lightbox/ -->
+	<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+
+	<script type="text/javascript">
+		$(function() {
+		$('#gallery a').lightBox();
+		});
+	</script>
+ 
+	<title>Early Works</title>
+</head>
+
+<body>
+	<div id = "top">
+	<header>
+		<h1>Andy Warhol</h1>
+		<h2>Early Works</h2>
+	</header>
+	</div>
+
+	<nav class = "bmenu">
+	<a href="index.html">Home</a> 
+	<a href="about.html">About</a> 
+	<a href="college.html">College Years</a>
+	<a href="work.html">Gallery</a> 
+	<a href="volunteer.html">Volunteer</a> 
+	<a href="contact.html">Contact</a> 
+	</nav>
+
+	<div id="gallery">
+		<p>Click on the thumbnail to see full image and description</p>
+			<div id="pic">
+				<div id="galleryThumbnail"><div id="thmbnlShadow">
+					<a href="images/girl_in_park.jpeg" title="Tempera on board, 25 x 20 in, 1948">
+					<img src="images/girl_in_park_thumb.jpeg" alt="park"/></a></div></div>
+				
+				<div id="galleryThumbnail"><div id="thmbnlShadow">
+					<a href="images/letter.jpeg" title="Andy Warhol letter to Russell Lynes, 1949.  Physical Details: Letter : 1 p. : handwritten, ill. ; 28 x 22 cm.  Sender: Andy Warhol (1928-1987).  Recipient: Russell Lynes (1910-1991). Description: Warhol provides a few of his biographical details. The introduction to the letter is enclosed in a speech bubble coming from a cartoon head drawn in black ink.  Citation: Andy Warhol letter to Russell Lynes, 1949. Harper's Magazine records kept by managing editor Russell Lynes, Archives of American Art, Smithsonian Institution.">
+					<img src="images/letter_thumb.jpeg" alt="letter"/></a></div></div>
+				
+				<div id="galleryThumbnail"><div id="thmbnlShadow">
+					<a href="images/nosepicker1.jpeg" title="Why Pick on Me (originally titled The Lord Gave Me My Face but I Can Pick My Own Nose) (ca. 1948). Tempera on board.  The Andy Warhol Museum, Pittsburgh; Museum Loan, Paul Warhol Family  © The Andy Warhol Foundation for the Visual Arts, Inc.">
+					<img src="images/nosepicker1_thumb.jpeg" alt="nose"></a></div></div>
+				
+				<div id="galleryThumbnail"><div id="thmbnlShadow">
+					<a href="images/roy_rogers.jpeg" title="Untitled (Roy Rogers).  c. 1948. Pencil on paper, 11 x 8 1/2'' (28 x 22 cm). Chief Curator Discretionary Fund. © 2012 Andy Warhol Foundation for the Visual Arts / Artists Rights Society (ARS), New York">
+					<img src="images/roy_rogers_thumb.jpeg" alt="letter"/></a></div></div>
+				
+				<div id="galleryThumbnail"><div id="thmbnlShadow">
+					<a href="images/successinny.jpeg" title="Success is a Job in New York.  Illustration by Andy Warhol on tearsheet for Success is a Job in New York from What is Success, Glamour Magazine, September 1949.  printed ink on paper 12 1/4 x 8 7/8 in. (31.1 x 22.5 cm.) Read more at warhol.org: http://www.warhol.org/collection/aboutandy/biography/successisajob/1998-3-2453/#ixzz26kTfJDDz">
+					<img src="images/successinny_thumb.jpeg" alt="letter"/></a></div></div>
+				
+				<div id="galleryThumbnail"><div id="thmbnlShadow">
+					<a href="images/untitled_woman.jpeg" title="Untitled (Woman) (c. 1946). Pencil on paper, 11 x 8 1/2'' (28 x 21.6 cm). Purchased with funds given by Sally and Wynn Kramarsky. © 2012 Andy Warhol Foundation for the Visual Arts / Artists Rights Society (ARS), New York">
+					<img src="images/untitled_woman_thumb.jpeg" alt="letter"/></a></div></div>
+
+			</div><!-- End gallery -->
+	</div> <!-- End contentGallery -->
+</body>
+
+<footer>
+</footer>
+
+</html>

@@ -1,0 +1,138 @@
+body {
+	background: url(images/backg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	margin: 0px;
+  	color: #000000;
+  	font-family: 'Libre Baskerville', serif
+}
+
+header{
+  	color: #EB12A5;
+	font-family: 'Libre Baskerville', serif
+}
+
+footer {
+	float: right;
+	margin-left: 1150px;
+	font-size: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 300px;
+	height: 60px;   /* Height of the footer */
+}
+
+footer a {
+	color: #EB12A5;
+}
+
+#top {
+	float: right;
+}
+
+h1 {
+	float: right;
+	padding-right: 110px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+h2 {
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 60px;
+	padding-left: 400px;
+}
+
+h3 {
+	margin: 0px;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding-left: 400px;
+
+}
+
+.bmenu{
+	width: 550px;
+	float: left;
+    padding: 0px;
+    padding-top: 220px;
+    padding-left: 50px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.bmenu li{
+    font-size: 50px;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+}
+.bmenu li a{
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px #000000;
+	color: #000000;
+	padding: 5px 20px;
+	margin: 2px;
+	background: #FF76D5;
+	opacity: 0.5;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.bmenu:hover li a{
+	text-shadow: 0px 0px 10px #000000;
+	color: transparent;
+	background: #FF76D5;
+}
+.bmenu li a:hover{
+	background: #FF76D5;
+	opacity: 0.5;
+	text-shadow: 0px 0px 1px #000000;
+}
+
+.bmenu li a:link {
+	text-decoration: none;
+} 
+
+.testimonial {
+	float: right;
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 10px 50px;
+    font-family: Georgia, serif;
+    color: #000000;
+    border-radius: 5px;
+    font-style: italic;
+    position: relative;
+    text-shadow: 0 1px 0 #000000;
+
+}
+
+.testimonial:before, .testimonial:after {
+    content: "\201C";
+    position: absolute;
+    font-size: 80px;
+    line-height: 1;
+    color: #999;
+    font-style: normal;
+}
+
+.testimonial:before {
+    top: 0;
+    left: 10px;
+}
+
+.testimonial:after {
+    content: "\201D";
+    right: 10px;
+    bottom: -0.5em;
+}
+
+
+
